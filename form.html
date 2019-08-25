@@ -1,0 +1,112 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <div class="topnav">
+                <a href="index.html"><strong>Home</strong></a>
+                <a href="index.html"><strong>About Us</strong></a>
+                <a class="active" href="#order"><strong>Order</strong></a>
+                <a href="contact"><strong>Contact</strong></a>
+</div>
+        <title>Order Pizza</title>
+        <link href="form.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <!-- image -->
+        <div class="image-header"> 
+                <div class="title-image">
+        <div class="header">
+        <h1>HEY PIZZA</h1>
+        <h2>Welcome to Best Pizza in Town</h2>
+    </div>
+                    <br>
+                      <form action="submission.html" method="POST"></form>
+                        <h3>Trust your pizza taste with us !</h1>
+                        
+                        <h4>Let's Order HEY PIZZA Now</h4>
+                  
+                          <section class="name">
+                          <label for="name">Your Name: </label><br>
+                              <input type="text" name="name" id="name">
+                          </section>
+
+                          <br>
+                          <section class="cityselect">
+                            <label for="City">Store City: </label><br>
+                              <input type="text" list="Cities" id="City" name="City">
+                                <datalist id="Cities">
+                                    <option value="Jakarta"></option>
+                                    <option value="Bogor"></option>
+                                    <option value="Yogyakarta"></option>
+                                    <option value="Bandung"></option>
+                                    <option value="Surabaya"></option>
+                                </datalist>
+                          </section>
+                       
+                        <br>
+                          <section class="phone">
+                              <label for="Phone Number">Phone Number: </label><br>
+                              <input type="text" name="name" id="name">
+                          </section>
+                        <br>
+                      
+                          <section class="email">
+                              <label for="Email">Email Address: </label><br>
+                                     <input type="text" name="Email" id="Email">
+                          </section>
+
+                          <br>
+                          <section class="pizzatype">
+                              <label for="pizza">Choose your kind of pizza:</label><br> 
+                              <select name="pizza" id="pizza">
+                                <option value="Pepperoni pizza">Pepperoni Pizza with Cheese</option>
+                                <option value="Hawaian Pizza">Hawaian Pizza</option>
+                                <option value="Pizza with berries">Pizza with berries</option>
+                              </select>
+                          </section>
+<br>
+
+                          <section class="pizza size">
+                                <label for="small">Choose your pizza size</label>
+                                <br>
+                                <span>Small</span>
+                                <input type="range" name="small" id="small" value="3" min="1" max="5">
+                                <span>Large</span>
+                              </section>
+
+                          <br>
+                          <section class="cheese">
+                                  <span>Do you want to add extra cheese?</span>
+                                  <br>
+                                  <input type="radio" name="cheese" id="Yes" value="Yes">
+                                  <label for="Yes">Yes</label>
+                                  <input type="radio" name="gender" id="No" value="No">
+                                  <label for="No">No</label>
+                          </section>
+                        
+                        <br>
+                          <section class="extrainfo">
+                              <label for="extra">Address:</label>
+                              <br>
+                              <textarea id="extra" name="extra" rows="10" cols="50"></textarea>
+                          </section>
+                        <br>
+                          <section class="submission">
+                                      <a href="lastpage.html"><input type="Submit" value="Order"></a>
+                          </section>
+
+                          <footer>
+                                <div id="contact">
+                                      <h3><em>email: info@heypizza.com | phone: 14055 | address: Jakarta, Indonesia</em></h3>
+                                    </div>
+                                </footer>
+                      
+                        </form>
+    </body>
+    </html>
+</html>
